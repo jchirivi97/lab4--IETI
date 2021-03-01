@@ -1,82 +1,40 @@
 # 1.4 Task Planner Project - Front End - Part 2
 
-### Codigo de honor:
-Debes seguir el Código de honor del ingeniero de sistemas para defender el estándar de integridad académica de la ECI:
-
-* Tus respuestas a tareas, cuestionarios y exámenes deben ser tu propio trabajo (excepto para las tareas que permiten explícitamente la colaboración).
-
-* No puedes compartir tus soluciones de tareas, cuestionarios o exámenes con otra persona a menos que el instructor lo permita explícitamente. Esto incluye cualquier cosa escrita por ti, como también cualquier solución oficial proporcionada por el docente o el monitor del curso.
-
-* No puedes participar en otras actividades que mejorarán de manera deshonesta tus resultados o que mejorarán de manera deshonesta o dañarán los resultados de otras personas.
-
-## Prerrequisitos
-
-### npm
-
-```
-npm -version
-
-6.14.4
-```
-
-### Git
-
-```
-> git --version
-
-git version 2.21.0.windows.1
-```
-
-## Instalación
-
-Para descargar localmente el repositorio se utiliza el comando como sigue:
-```
-git clone https://github.com/Diego23p/IETI_4.git
-```
-
-Para ejecutar la aplicación:
-```
-npm install
-
-npm start
-```
 
 ## Desarrollo
 
 * Create the NewTask.js component and the corresponding CSS file if needed (use the Material-UI library!)
 
-![](/img/1.jpg)
+![1](https://user-images.githubusercontent.com/48265107/109439750-a103ce00-79fd-11eb-97e4-d90965bb594c.jpg)
 
 * Modify the App.js component so that it uses BrowserRouter to enable the navigation from a "+" floating action button in the main view to take the user to the NewTask component.
 
-![](/img/2.jpg)
+![2](https://user-images.githubusercontent.com/48265107/109439791-c7c20480-79fd-11eb-84b4-e6798776201f.jpg)
 
-* Implement the logic to be able to connect the main view so that the new task is added to the list on the main view when the user clicks the add button.
+* Implement the logic to be able to connect the main view so that the new task is added to the list on the main view when the user clicks the add button
 
-![](/img/3.jpg)
+![3](https://user-images.githubusercontent.com/48265107/109439828-e922f080-79fd-11eb-9a6d-a98f407b0577.jpg)
+![4](https://user-images.githubusercontent.com/48265107/109439829-ea541d80-79fd-11eb-93f3-2771771ec9c1.jpg)
 
-![](/img/4.jpg)
 
 * Implement the UserProfile.js component to update the user profile details (make sure this updates your navigationDrawer in your main view):
 
-![](/img/5.jpg)
+![5](https://user-images.githubusercontent.com/48265107/109439867-166f9e80-79fe-11eb-8abc-36904be8e4ad.jpg)
+![6](https://user-images.githubusercontent.com/48265107/109439871-18396200-79fe-11eb-8746-b76535258a0b.jpg)
 
-![](/img/6.jpg)
+
+* Create a Modal to display the options for filtering the list of tasks.
+
+![7](https://user-images.githubusercontent.com/48265107/109439895-343d0380-79fe-11eb-86e2-563ef482fc62.jpg)
+
 
 * Implement the logic so that the data is filtered according to the applied filters.
 
-![](/img/7.jpg)
-
-![](/img/8.jpg)
+![8](https://user-images.githubusercontent.com/48265107/109439928-4e76e180-79fe-11eb-9c39-d8e108a95011.jpg)
 
 * Deploy your App to Heroku
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://frozen-falls-76448.herokuapp.com/)
 
-* Deploy your App as an Azure Webapp
 
-https://ietii.z21.web.core.windows.net/
 
-# Autores
 
-- [Diego Alejandro Puerto Gómez](https://github.com/Diego23p)
